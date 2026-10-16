@@ -1,0 +1,18 @@
+{
+  "catalog_embeddings.npy": {
+    "bytes": 364060800,
+    "md5": "be144e25fc5db24fb198959c5f2dd700"
+  },
+  "model_config.json": {
+    "bytes": 982,
+    "md5": "2a2bc05128f435d4f0febf6913fcc4e8"
+  },
+  "products.csv": {
+    "bytes": 5112538,
+    "md5": "bee074e1c0837c68f951a4ced54729a9"
+  },
+  "search_settings.json": {
+    "bytes": 95,
+    "md5": "712ce5f94ae0191a8a5cf17ff3b31eee"
+  }
+}

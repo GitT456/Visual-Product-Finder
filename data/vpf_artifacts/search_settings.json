@@ -1,0 +1,6 @@
+{
+  "k": 5,
+  "candidates": 20,
+  "deduplicate_results": true,
+  "duplicate_threshold": 0.999
+}

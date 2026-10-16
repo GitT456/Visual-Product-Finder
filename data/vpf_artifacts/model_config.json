@@ -1,0 +1,42 @@
+{
+  "architecture": "ResNet-50 (torchvision), classifier removed, used as frozen feature extractor",
+  "weights": "ResNet50_Weights.IMAGENET1K_V2",
+  "embedding_dim": 2048,
+  "normalization": "L2",
+  "similarity": "cosine (dot product of L2-normalized vectors)",
+  "mixed_precision_fp16": true,
+  "preprocessing": {
+    "mode": "crop",
+    "convert_mode": "RGB",
+    "resize_size": 232,
+    "crop_size": 224,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "interpolation": "bilinear"
+  },
+  "catalog": {
+    "size": 44441,
+    "embeddings_file": "catalog_embeddings.npy",
+    "products_file": "products.csv",
+    "dtype": "float32",
+    "md5": "a01e822c63c2e04b4f54f0bae9f909ee",
+    "failed_images": 0
+  },
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128"
+  },
+  "precision_at_5_proxy": {
+    "masterCategory": 0.9892,
+    "subCategory": 0.9373,
+    "articleType": 0.8156
+  }
+}

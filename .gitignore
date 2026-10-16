@@ -1,0 +1,14 @@
+# environment
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+.venv/
+__pycache__/
+.env
+.env.*
+!.env.example
+.pytest_cache/
